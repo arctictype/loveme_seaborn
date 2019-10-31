@@ -1,0 +1,7 @@
+```
+Working with seaborn more and more.
+```
+#combine violin and swarm
+sns.violinplot(x="cataforical_data", y="quatitative_data", data=subject_data)
+sns.swarmplot(x="cataforical_data", y="quatitative_data", data=subject_data,color='black)
+
